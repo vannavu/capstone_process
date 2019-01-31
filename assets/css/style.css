@@ -88,6 +88,18 @@ h2 {
 	float: right;
 }
 
+/* log date */
+h3 {
+	font-family: "source-code-pro", monospace;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+	background: black;
+	display: inline-block;
+	margin: 0 0 20px 33.36%;
+	padding: 0 6px;
+}
+
 /* left column captions */
 h5 {
 	font-family: "ff-basic-gothic-pro", sans-serif;
