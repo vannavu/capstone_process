@@ -1,0 +1,443 @@
+@import url("https://use.typekit.net/mqb3eja.css");
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url();
+	background-attachment: fixed;
+	background-position: center;
+	font-family: "source-sans-pro", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+
+.wrapper {
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 900px;
+	width: 96%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	width: 100%;
+}
+
+::selection {
+    background-color: #EAEDED;
+}
+
+/* content */
+main {
+	flex: 1;
+	min-height: 100%;
+	-webkit-animation-name: fade 2.5s;
+	animation: fade 2.5s;
+}
+
+/* page titles + dates */
+h1 {
+	margin: 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 18px;
+}
+
+h1 span {
+	background: white;
+}
+
+#title {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-right: 10px;
+	letter-spacing: .175em;
+	position: relative;
+	top: 18px;
+}
+
+#date {
+	position: relative;
+	float: right;
+	top: 38px;
+	font-weight: 300;
+	font-size: 15px;
+	padding-left: 10px;
+	font-family: "source-sans-pro", sans-serif;
+}
+
+/* synopsis */
+h2 {
+	font-weight: 300;
+	font-family: "source-code-pro", monospace;
+	font-size: 24px;
+	line-height: 1.75em;
+	color: black;
+	margin: 0 0 20px 0;
+	display: inline-block;
+	width: 66.64%;
+	float: right;
+}
+
+/* left column captions */
+h5 {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	text-align: right;
+	font-size: 13px;
+	margin: -10px 0 10px 0;
+	font-weight: 200;
+}
+
+/* right column captions */
+h6 {
+	width: 66.64%;
+	float: right;
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	text-align: right;
+	font-size: 13px;
+	margin: -16px 0 16px 0;
+	font-weight: 200;
+}
+
+/* YouTube videos */
+iframe, video {
+	width: 100%;
+	margin: 16px 0;
+}
+
+main p {
+	line-height: 1.6em;
+	margin: 0 0 16px 0;
+	display: inline-block;
+	width: 66.64%;
+	float: right;
+}
+
+main a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px black dotted;
+}
+
+main a:hover {
+	border-bottom: 1px solid;
+}
+
+nav {
+	max-width: 210px;
+	min-width: 100px;
+	width: 100%;
+	position: fixed;
+	left: -153px;
+	top: 57px;
+	z-index: 2;
+	border-top: 1.5px solid black;
+	transition: left 0.75s;
+}
+
+nav:hover {
+	left: 0px;
+	transition: left 1s;
+}
+
+/* left column (markdown work-around) */
+blockquote {
+	width: 28%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+blockquote p {
+	padding: 0;
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+
+blockquote hr {
+	border: 1.5px solid black;
+}
+
+blockquote a, nav a {
+	border-bottom: none;
+}
+
+h5 a {
+	border-bottom: 1px dotted black;
+}
+
+nav a {
+	font-size: 15px;
+}
+
+blockquote ul, nav ul {
+	list-style: outside none;
+	padding: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	margin: 0;
+}
+
+nav ul {
+	opacity: 0;
+	background: white;
+	transition: opacity 1s;
+}
+
+nav ul:hover {
+	opacity: 1;
+	transition: opacity 1.5s;
+}
+
+blockquote li:before {
+	content: '+';
+	padding-right: .5em;
+	background-color: white;
+}
+
+nav li {
+	padding-left: 0.5em;
+}
+
+/* image sizing */
+.fill, #hover_gallery, .page_nav {
+	padding: 0;
+	width: 100%;
+	float: none;
+	margin: 16px 0;
+}
+
+#hover_gallery {
+	margin-top: 38px;
+	height: 506px;
+	background: url(../../images/index/click.gif);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.half_left {
+	width: 48.34%;
+	float: left;
+}
+
+.half_right {
+	width: 48.34%;
+	float: right;
+}
+
+/* bottom navigation for pages */
+.page_nav {
+	margin: 4em 0 0 0;
+}
+
+.home, .forward, .back {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 600;
+	letter-spacing: .15em;
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+	border-bottom: none;
+	background-color: white;
+}
+
+.home {
+	padding-right: 8px;
+}
+
+.back {
+	margin-left: calc(33.36% - 64.89px);
+	padding: 0 8px;
+}
+
+.back::before {
+	font-size: 11px;
+	margin-right: 4px;
+	content: "\25c0";
+}
+
+.forward {
+	padding-left: 9px;
+	margin-top: 2px;
+	float: right;
+}
+
+.forward::after {
+	font-size: 11px;
+	margin-left: 6px;
+	content: "\25B6";
+}
+
+.home:hover, .back:hover, .forward:hover {
+	border-bottom: none;
+}
+
+footer {
+	position: relative;
+	z-index: -1;
+	margin: -0.9em 0 1.5em 0;
+	border-top: 1px solid black;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+/* footer buttons positioning (let's get finicky) */
+#colofun {
+    display: none;
+    width: 100%;
+	background-color: white;
+}
+
+#colofun p {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-size: 13px;
+	margin: -1em 0 1em 0;
+}
+
+.smiley svg {
+	position: relative;
+	top: -0.65rem;
+	z-index: 1;
+	background: white;
+	padding-right: 8px;
+	cursor: pointer;
+	width: 1rem;
+}
+
+.smiley svg:hover {
+	fill: #FF003A; /* red */
+}
+
+/*[future blog] {
+	position: relative;
+	float: right;
+	top: -11px;
+	z-index: 1;
+	background: white;
+	padding-left: 8px;
+}*/
+
+/*[future blog]:hover {
+	color: lime;
+}
+*/
+
+/* animations */
+@keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@media (max-width: 700px) {
+	.name_plate, .menu.small, blockquote, main p, h2, h4, h6 {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	.menu.big {
+		display: none;
+	}
+
+	header {
+		margin: 0 0 32px 0;
+	}
+
+	.name_plate {
+		padding: 72px 0 21px 0;
+		border-top: 1px solid black;
+	}
+
+	.name_plate img {
+		display: block;
+		margin: auto;
+		content: url("/images/name_plate_mobile.svg");
+		width: 94%;
+	}
+
+	.menu.small ul {
+		display: flex;
+		justify-content: space-between;
+		padding: 0;
+		margin: 12px 0 -12px 0;
+	}
+
+	.menu.small ul li {
+		display: inline-block;
+		padding: 0 10px;
+		background: white;
+	}
+
+	.wrapper {
+		width: 92%;
+	}
+
+	#title {
+		padding-right: 6px;
+	}
+
+	#date {
+		display: none;
+	}
+
+	blockquote {
+		margin-bottom: 32px;
+	}
+
+	h1 {
+		margin-bottom: 28px;
+	}
+
+	h2 {
+		line-height: 1.4em;
+	}
+
+	h5 {
+		margin: 0 0 16px 0;
+	}
+
+	h6 {
+		width: 100%;
+		margin: -16px 0 16px 0;
+	}
+
+	.half_left, .half_right {
+		margin-bottom: 24px;
+	}
+
+	iframe, video {
+		height: auto;
+	}
+
+	.home, .forward {
+		margin: 3em 0 0 0;
+	}
+
+	footer {
+		margin: 1em 0 -10px 0;
+	}
+
+	#colofun blockquote {
+		margin: 1em 0;
+	}
+}
