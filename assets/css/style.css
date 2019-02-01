@@ -89,20 +89,20 @@ h2 {
 }
 
 /* log date */
-h3 {
+.log_date {
 	font-family: "source-code-pro", monospace;
 	font-size: 14px;
 	font-weight: 300;
 	color: white;
 	background: black;
-	display: inline-block;
-	margin: 0 0 20px 33.36%;
+	/*display: inline-block;
+	margin: 0 0 20px 33.36%;*/
 	padding: 0 6px;
 }
 
 /* left column captions */
 h5 {
-	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-family: "source-code-pro", monospace;
 	text-align: right;
 	font-size: 13px;
 	margin: -10px 0 10px 0;
@@ -113,7 +113,7 @@ h5 {
 h6 {
 	width: 66.64%;
 	float: right;
-	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-family: "source-code-pro", monospace;
 	text-align: right;
 	font-size: 13px;
 	margin: -16px 0 16px 0;
