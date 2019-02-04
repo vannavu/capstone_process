@@ -242,11 +242,14 @@ nav li {
 .half_left {
 	width: 48.34%;
 	float: left;
+	bottom-margin: 16px;
 }
 
 .half_right {
 	width: 48.34%;
 	float: right;
+	bottom-margin: 16px;
+
 }
 
 /* bottom navigation for pages */
