@@ -4,7 +4,9 @@ layout: home
 ---
 # <span id="title">Capstone Process</span><span id="date">Spring 2019</span>
 
-## My capstone is two parts: a typeface for display text and pattern making + an interactive type specimen website 
+## My capstone is two parts: a typeface for display text and pattern making + an interactive type specimen website
+
+<span>+</span> [some context from the previous semester](https://vannavu.com/referencerepository/)
 
 {% include /02.09.19.md %}
 {% include /02.08.19.md %}
