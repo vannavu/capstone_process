@@ -47,7 +47,7 @@ main {
 h1 {
 	margin: 0;
 	border-bottom: 1px solid black;
-	margin-bottom: 18px;
+	margin-bottom: 36px;
 }
 
 h1 span {
@@ -242,14 +242,13 @@ nav li {
 .half_left {
 	width: 48.34%;
 	float: left;
-	bottom-margin: 16px;
+	margin-bottom: 8px;
 }
 
 .half_right {
 	width: 48.34%;
 	float: right;
-	bottom-margin: 16px;
-
+	margin-bottom: 8px;
 }
 
 /* bottom navigation for pages */
