@@ -8,7 +8,6 @@ layout: home
 
 <span>+</span> [some context from the previous semester](https://vannavu.com/referencerepository/)
 
-{% include /02.10.19.md %}
 {% include /02.09.19.md %}
 {% include /02.08.19.md %}
 {% include /02.07.19.md %}
