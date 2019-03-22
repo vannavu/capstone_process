@@ -4,14 +4,19 @@ layout: home
 ---
 # <span id="title">Capstone Process</span><span id="date">Spring 2019</span>
 
-## My capstone is two parts: a typeface for display text and pattern making + an interactive type specimen website
+> the outlet mall of graphic design
+
+## My capstone is two parts: a typeface for display text and pattern making & an interactive type specimen website
 
 <span>+</span> [some context from the previous semester](https://vannavu.com/referencerepository/)
 
+{% include /03.22.19.md %}
+{% include /03.21.19.md %}
 {% include /03.10.19.md %}
 {% include /03.09.19.md %}
 {% include /03.08.19.md %}
 {% include /03.06.19.md %}
+{% include /02.27.19.md %}
 {% include /02.21.19.md %}
 {% include /02.12.19.md %}
 {% include /02.10.19.md %}
