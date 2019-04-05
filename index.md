@@ -22,6 +22,7 @@ layout: home
 {% include /03.08.19.md %}
 {% include /03.06.19.md %}
 {% include /02.27.19.md %}
+{% include /02.22.19.md %}
 {% include /02.21.19.md %}
 {% include /02.12.19.md %}
 {% include /02.10.19.md %}
