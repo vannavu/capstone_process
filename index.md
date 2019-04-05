@@ -34,6 +34,7 @@ layout: home
 {% include /01.29.19.md %}
 {% include /01.27.19.md %}
 {% include /01.21.19.md %}
+{% include /01.17.19.md %}
 {% include /01.16.19.md %}
 {% include /01.12.19.md %}
 {% include /11.23.18.md %}
